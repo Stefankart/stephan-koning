@@ -28,8 +28,8 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
-				short_name: "Astros",
+				name: "DMA Global - World-class, all-inclusive digital services  ",
+				short_name: "DMA Global",
 				theme_color: "#ffffff",
 				icons: [
 					{
