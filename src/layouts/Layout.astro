@@ -40,22 +40,40 @@ const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template 
 		<!-- Global CSS -->
 		<link rel="stylesheet" href="/index.css" />
 
-		<SEO
-			title={makeTitle}
-			description="Astros is a starter website template for Astro built with TailwindCSS and alpine js."
-			canonical={canonicalURL}
-			openGraph={{
-				basic: {
-					url: canonicalURL,
-					type: "website",
-					title: `Astros - Starter Template for Astro`,
-					image: resolvedImageWithDomain,
-				},
-				image: {
-					alt: "Astros Homepage Screenshot",
-				},
-			}}
-		/>
+	<SEO
+  title={makeTitle}
+  description="Unlock elite digital growth with our B2B services, crafted to catapult your company into the industry's top 3%.",
+  canonical={canonicalURL}
+  openGraph={{
+    basic: {
+      url: canonicalURL,
+      type: "website",
+      title: `DMA - Global - World-class B2B digital services for industry leadership`,
+      image: resolvedImageWithDomain,
+    },
+    image: {
+      alt: "Showcasing B2B digital transformation success",
+    },
+  }}
+
+twitter={{
+	creator: "@StephanDMA"
+  }}
+  extend={{
+	// extending the default link tags
+	link: [{ rel: "icon", href: "/favicon.ico" }],
+	// extending the default meta tags
+	meta: [
+	  {
+		name: "twitter:image",
+		content: "https://user-images.githubusercontent.com/5182256/131216951-8f74f425-f775-463d-a11b-0e01ad9fce8d.png",
+	  },
+	  { name: "twitter:title", content: "Stephan Koning Twitter" },
+	  { name: "twitter:description", content: "Top Voice Linkedin" },
+	],
+  }}
+  
+/>
 
 		<script is:inline>
 			function handleThemeChange() {
