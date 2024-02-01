@@ -1,11 +1,11 @@
 {
 	"hero": {
-		"title": "Supercharged web development!",
-		"subtitle": "Unleashing the Power of the Web: Combines Astro, Tailwind CSS and Alpine.js to Streamline Your Web Development Process.",
-		"globe_title": "Craft Stunning, High-Performance Websites with Ease and Speed",
-		"main_button_text": "Download on github",
-		"secondary_button_text": "Go to animated version"
-	},
+		"title": " Stand Out From the Crowd with DMA! ",
+		"subtitle": "Being on Google's second page might as well mean you don't exist. Every second your business isn't visible, you're not just missing out; you're handing potential revenue to your competitors.",
+		"globe_title": "We only work with ambitious brands aiming for the top 8% in their field.",
+		"main_button_text": "Yes I want To Stand Out",
+		"secondary_button_text": "See Case Studies"
+		},
 	"hero_animated": {
 		"secondary_button_text": "Go to base version"
 	},
@@ -19,18 +19,23 @@
 	},
 	"features": {
 		"learn_more": "Learn more",
-		"title": "Features",
-		"subtitle": "All the tools you need",
-		"description": "Astro is a high-performance static site builder that seamlessly integrates with Tailwind CSS and Alpine.js. It allows you to build websites with ease and speed, without sacrificing on performance.",
-		"astro": "Astro is the all-in-one web framework designed for speed. Pull your content from anywhere and deploy everywhere, all powered by your favorite UI components and libraries.",
-		"alpine": "Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web. Plop in a script tag and get going.",
-		"tailwind": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
-		"localization": "An astro integration of i18next + some utility components to help you translate your astro websites!",
-		"light_dark_mode": "Light/Dark mode based on tailwind classes",
-		"giscus": "A comments system powered by GitHub Discussions. Let visitors leave comments and reactions on your website via GitHub!",
-		"decapcms": "Open source content management for your Git workflow",
-		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Use AI to generate your articles posts"
+		"title": "Stand Out Online with DMA ",
+		"subtitle": "The Digital Marketing Agency for Industry Dominators.",
+		"description": "We don't just help you exist online. We help you dominate. With DMA, you won't just be another business lost in the crowd. You'll be the one leading it. Our world-class digital services ensure you're not just competing but setting the pace in your industry.",
+		"seo": "Elevate your online visibility and outrank competitors with our strategic SEO services, designed to drive qualified traffic and increase your market share.",
+		"content": "Engage and convert your target audience with compelling content that underscores your industry authority and drives lead generation.",
+		"leads": "Leverage our expertise to identify and captivate your ideal prospects, transforming them into valuable leads with high conversion potential.",
+		"CRO": "Maximize your website's performance and user experience to turn more visitors into loyal customers, boosting your bottom line.",
+		"email_marketing": "Cultivate lasting relationships and encourage repeat business with personalized email campaigns that resonate with your audience.",
+		"social_media_marketing": "Expand your brand's reach and engagement across social platforms, connecting with your audience where they spend their time.",
+		"data_and_analytics": "Make informed decisions with our comprehensive analytics, offering insights into user behavior and campaign effectiveness to optimize your strategies.",
+		"customer_success_support": "Our dedicated customer success team ensures you have the knowledge and support needed to fully leverage our services for your business's growth."
+
+
+
+											
+
+		
 	},
 	"faq": {
 		"title": "Frequently Asked Questions"
