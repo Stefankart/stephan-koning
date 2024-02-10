@@ -8,67 +8,56 @@ import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
 
+
 // https://astro.build/config
 export default defineConfig({
-	site: "https://stephan-koning.pages.dev/",
-	vite: {
-		define: {
-			__DATE__: `'${new Date().toISOString()}'`,
-		},
-	},
-	integrations: [
-		tailwind(),
-		sitemap(),
-		astroI18next(),
-		alpinejs(),
-		AstroPWA({
-			mode: "production",
-			base: "/",
-			scope: "/",
-			includeAssets: ["favicon.svg"],
-			registerType: "autoUpdate",
-			manifest: {
-				name: "DMA Global - World-class, all-inclusive digital services  ",
-				short_name: "DMA Global",
-				theme_color: "#ffffff",
-				icons: [
-					{
-						src: "pwa-192x192.png",
-						sizes: "192x192",
-						type: "image/png",
-					},
-					{
-						src: "pwa-512x512.png",
-						sizes: "512x512",
-						type: "image/png",
-					},
-					{
-						src: "pwa-512x512.png",
-						sizes: "512x512",
-						type: "image/png",
-						purpose: "any maskable",
-					},
-				],
-			},
-			workbox: {
-				navigateFallback: "/404",
-				globPatterns: ["*.js"],
-			},
-			devOptions: {
-				enabled: false,
-				navigateFallbackAllowlist: [/^\/404$/],
-				suppressWarnings: true,
-			},
-		}),
-	],
-	markdown: {
-		rehypePlugins: [
-			rehypeSlug,
-			// This adds links to headings
-			[rehypeAutolinkHeadings, autolinkConfig],
-		],
-	},
-	experimental: {
-		contentCollectionCache: true,
-	}
+  site: "https://stephan-koning.pages.dev/",
+  vite: {
+    define: {
+      __DATE__: `'${new Date().toISOString()}'`
+    }
+  },
+  integrations: [tailwind(), sitemap(), astroI18next(), alpinejs(), AstroPWA({
+    mode: "production",
+    base: "/",
+    scope: "/",
+    includeAssets: ["favicon.svg"],
+    registerType: "autoUpdate",
+    manifest: {
+      name: "DMA Global - World-class, all-inclusive digital services  ",
+      short_name: "DMA Global",
+      theme_color: "#ffffff",
+      icons: [{
+        src: "pwa-192x192.png",
+        sizes: "192x192",
+        type: "image/png"
+      }, {
+        src: "pwa-512x512.png",
+        sizes: "512x512",
+        type: "image/png"
+      }, {
+        src: "pwa-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "any maskable"
+      }]
+    },
+    workbox: {
+      navigateFallback: "/404",
+      globPatterns: ["*.js"]
+    },
+    devOptions: {
+      enabled: false,
+      navigateFallbackAllowlist: [/^\/404$/],
+      suppressWarnings: true
+    }
+  })],
+  markdown: {
+    rehypePlugins: [rehypeSlug,
+    // This adds links to headings
+    [rehypeAutolinkHeadings, autolinkConfig]]
+  },
+  experimental: {
+    contentCollectionCache: true
+  }
 });
