@@ -11,7 +11,7 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://stephan-koning.pages.dev/",
+  site: "https://thisisdma.com",
   vite: {
     define: {
       __DATE__: `'${new Date().toISOString()}'`
